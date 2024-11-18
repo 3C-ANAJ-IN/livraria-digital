@@ -28,6 +28,14 @@
 
  /*ESTRUTURA BÁSICA*/
 
+
+ .titulo {
+    font-size: 50px;
+ }
+
+ .subtitulo {
+    font-size: 30px;
+ }
  html {
      cursor: var(--auto);
 
