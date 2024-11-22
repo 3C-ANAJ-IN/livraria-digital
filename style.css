@@ -30,12 +30,13 @@
 
 
  .titulo {
-    font-size: 50px;
+     font-size: 50px;
  }
 
  .subtitulo {
-    font-size: 30px;
+     font-size: 30px;
  }
+
  html {
      cursor: var(--auto);
 
@@ -502,13 +503,6 @@
  .bemvindos {
      display: block;
 
-
-     .barradepesquisa {
-         border: var(--cinza-escuro) 3px solid;
-         border-radius: 35px;
-         margin: 0 300px 0 300px;
-     }
-
      h4,
      h3,
      p {
@@ -537,8 +531,9 @@
      input {
          padding: 20px;
          width: 300px;
-         margin: auto;
-         border: none;
+         border: var(--cinza-escuro) 3px solid;
+         border-radius: 35px;
+         margin: 0 450px;
      }
 
      input:focus {
@@ -1090,15 +1085,6 @@
 
 
 
- /*MEDIA QUERIES */
- @media screen and (max-width: 520px) {
-
-    
-         
-     
- }
-
-
 
  /*WEBKIT*/
 
@@ -1127,4 +1113,222 @@
  input[type="search"]::-webkit-search-results-button,
  input[type="search"]::-webkit-search-results-decoration {
      display: none;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ /*MEDIA QUERIES */
+ @media screen and (max-width: 768px) {
+
+
+     .menu .titulo {
+         display: none;
+     }
+
+     .guiabotao {
+         position: absolute;
+         left: 20px;
+         top: 10px;
+         padding: 10px;
+     }
+
+     .iconesdireita .btn-proximo {
+         position: relative;
+         top: 0;
+         padding: 0;
+         right: 0;
+         margin: 0 10px;
+     }
+
+     .home {
+         display: block;
+
+         img {
+             height: 250px;
+             margin: 0;
+             padding: 0;
+         }
+
+         h2 {
+             font-size: 25px;
+             margin: 30px 0 0 0;
+         }
+     }
+
+
+     .bemvindos {
+         display: block;
+         align-items: center;
+
+         h4 {
+             font-size: 30px;
+         }
+
+         h3 {
+             font-size: 20px;
+         }
+
+         input {
+             margin: 0 10px;
+             width: 300px;
+         }
+     }
+
+
+     .importancia {
+
+         margin: 0;
+         padding: 50px 35px;
+
+         span {
+             font-size: 30px;
+         }
+
+         h2 {
+             font-size: 25px;
+             margin: 10px 0;
+         }
+
+         h3 {
+             font-size: 20px;
+         }
+
+         .alltopics {
+             display: flex;
+             margin: 0;
+             padding: 0;
+             flex-wrap: wrap;
+             position: relative;
+             flex-shrink: 0;
+         }
+     }
+
+
+     header {
+         background-color: var(--cor-principal);
+         border-bottom: 2px solid var(--cinza-escuro);
+         width: 100%;
+         padding: 10px;
+         height: 50px;
+     }
+
+     .menu {
+         display: flex;
+         margin: 0 100px 200px 100px;
+     }
+
+
+
+
+
+     .novidadedasemana {
+         padding: 20px;
+         margin: 0;
+
+
+         .tudo {
+             flex-direction: column;
+             align-items: center;
+         }
+
+         .texto {
+             max-width: 100%;
+             margin: 10px 0;
+             text-align: center;
+         }
+
+         .texto button {
+             width: 100%;
+             padding: 15px;
+             font-size: 16px;
+         }
+
+         .texto img.sino {
+             height: 30px;
+             margin: 50px 0 10px 0;
+         }
+
+         .flip {
+             margin-bottom: 20px;
+         }
+
+         .texto p {
+             font-size: 14px;
+             line-height: 1.5;
+         }
+
+         .texto h3 {
+             font-size: 18px;
+             margin-bottom: 10px;
+         }
+     }
+
+
+     .texto .p {
+         text-align: center;
+     }
+
+
+     button {
+         width: 50px;
+         border-radius: 30px;
+         background-color: var(--cinza-escuro);
+         border: none;
+         color: var(--cor-principal);
+     }
+ }
+
+ .oquetemos {
+     margin: 0px;
+     padding: 80px 0;
+
+     .blocos {
+         display: flex;
+         margin: 0 25px;
+         padding: 0;
+         flex-wrap: wrap;
+         position: relative;
+         flex-shrink: 0;
+     }
+
+     h3 {
+         text-align: center;
+     }
+
+     img {
+         height: 40px;
+         margin: auto;
+         padding-right: 20px;
+     }
+
+     img:hover {
+         filter: invert(60%) sepia(91%) saturate(1026%) hue-rotate(360deg) brightness(102%) contrast(105%);
+     }
+
+     p {
+         text-align: justify;
+         font-weight: 500;
+         background-size: cover;
+         margin: auto;
+     }
+
+     .bloco {
+         padding: 20px;
+         border: 1px solid var(--cinza-escuro);
+         background-color: var(--cor-principal);
+         margin: 20px;
+         max-height: 100px;
+         width: 350px;
+         display: flex;
+     }
+
  }
