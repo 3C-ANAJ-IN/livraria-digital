@@ -50,11 +50,14 @@
                 <h1 class="titulo">ENTRELINHAS<span>.</span></h1>
 
                 <div class="iconesdireita">
-                    <button class="btn-proximo" data-proximo="13"><img src="img icones/favoritosm.png"></button>
-                    <button class="btn-proximo" data-proximo="14"><img src="img icones/carrinho.png"></button>
-                    <button onclick="openPopup('popup2')" class="btn-proximo"><img src="img icones/usuário.png"></button>
+                    <button id="botaomenubtn" class="btn-proximo" data-proximo="13"><img
+                            src="img icones/favoritosm.png"></button>
+                    <button id="botaomenubtn" class="btn-proximo" data-proximo="14"><img
+                            src="img icones/carrinho.png"></button>
+                    <button id="botaomenubtn" onclick="openPopup('popup2')"><img src="img icones/usuário.png"></button>
 
-                    <button class="btn-proximo" data-proximo="0"><img src="img icones/home.png"></button>
+                    <button id="botaomenubtn" class="btn-proximo" data-proximo="0"><img
+                            src="img icones/home.png"></button>
                 </div>
             </div>
         </header>
@@ -75,7 +78,8 @@
                     <h2 class="subtitulo">LIVRARIA DIGITAL</h2><br>
                     <p>Aqui acreditamos que as palavras tem um poder transformador. Nossa plataforma tem o objetivo de
                         criar uma experiência envolvente e diversa no mundo da leitura, então, seja vocẽ fã de ficção,
-                        poesia, romance ou terror psicológico, no projeto "entrelinhas" temos um lugar especial para você!
+                        poesia, romance ou terror psicológico, no projeto "entrelinhas" temos um lugar especial para
+                        você!
                         Permita-se ampliar seus horizontes, aperte o cinto e...
                     </p><BR><BR>
                     <p><b>ACOMPANHE LILI PELO UNIVERSO DA LEITURA</b></p>
@@ -91,7 +95,7 @@
                 <h3>LIVRARIA DIGITAL<span>!</span></h3>
 
 
-                    <input type="text" name="search" placeholder="ENCONTRE SUA PRÓXIMA LEITURA">
+                <input type="text" name="search" placeholder="ENCONTRE SUA PRÓXIMA LEITURA">
                 <p>VOCÊ TAMBÉM PODE ENCONTRAR O QUE DESEJA NAVEGANDO PELO MENU!</p>
             </section>
 
@@ -152,7 +156,8 @@
                         <IMg class="sino" SRC="img icones/sino.png">
                         <h3>NOVIDADES DA SEMANA</h3>
                         <p class="p"><b>CLIQUE NO CARD PARA DESCOBRIR O LIVRO DESSA SEMANA<span>!</span></b></p><BR><BR>
-                        <P>A semana aqui no projeto <span>"entrelinhas"</span> voa e sempre traz muitas novidades! arraste o mouse para o
+                        <P class="p2">A semana aqui no projeto <span>"entrelinhas"</span> voa e sempre traz muitas
+                            novidades! arraste o mouse para o
                             bloco e fique por dentro do que rolou nos últimos sete dias. Assim, você pode encontrar uma
                             sugestão rápida para sua próxima leitura.</P>
 
@@ -174,23 +179,22 @@
 
                 <h3>O QUE TEMOS A OFERECER</h3>
                 <div class="blocos">
-                    <div class="bloco"><img src="img icones/wi-fi.png" title="">
-                        <p>Livros offline depois do primeiro acesso!</p>
+                    <div class="bloco"><img src="img icones/novo.png">
+                        <p>Fique por dentro das novidades mais esperadas do mercado.</p>
                     </div>
-                    <div class="bloco"><img src="img icones/geometria.png" title="">
-                        <p>Uma grande variedade de títulos para escolher.</p>
+                    <div class="bloco"><img src="img icones/geometria.png">
+                        <p>Explore uma vasta coleção de obras dos mais variados gêneros literários.</p>
                     </div>
                 </div>
 
 
                 <div class="blocos">
-                    <div class="bloco"><img src="img icones/dispositivo.png" title="">
-                        <p>Acessível em diversos dispositivos, perfeito para você em qualquer lugar e em qualquer
-                            eletrônico!</p>
+                    <div class="bloco"><img src="img icones/dispositivo.png">
+                        <p>Compatibilidade com qualquer dispositivo, com design responsivo e uma interface intuitiva.
+                        </p>
                     </div>
-                    <div class="bloco"><img src="img icones/estrela.png" title="">
-                        <p>Possui uma mecânica de interação do usuário com a plataforma: o que você quer que seja
-                            adicionado? </p>
+                    <div class="bloco"><img src="img icones/estrela.png">
+                        <p>Acesso rápido aos seus livros e ebooks favoritos</p>
                     </div>
             </section>
 
@@ -274,7 +278,7 @@
 
 
 
-                        <div id="email"><img src="img icones/email pendente.png"><input type="email" name="EMAIL"
+                        <div id="email"><img src="img icones/email.png"><input type="email" name="EMAIL"
                                 placeholder="EMAIL"><br></div>
                         <div id="sugestao"><img src="img icones/sorrir.png"><input type="text" name="SUGESTAO"
                                 placeholder="SUGIRA ALGO QUE VOCÊ GOSTARIA DE VER NO SITE!"><br>
@@ -341,12 +345,28 @@
 
 
 
-        <!--CATEGORIAS-->
 
+
+
+
+
+
+
+
+
+
+
+
+
+        <!----------------CATEGORIAS---------------->
+
+
+
+        <!----------------AUTORIA MARGINALIZADA---------------->
 
         <section class="ascategorias">
 
-            <div class="passo" id="passo-1"><!--AUTORIA MARGINALIZADA-->
+            <div class="passo" id="passo-1">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -357,23 +377,19 @@
                     </div>
                 </div>
 
+
+
                 <div class="livrosaqui">
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/A AUTOBIOGRAFIA DA MINHA MÃE.jpg">
-                        <p>A AUTOBIOGRAFIA DA MINHA MÃE</p>
+                        <p>A AUTOBIOGRAFIA DA MINHA 'MÃE</p>
                     </div>
-
-
-
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/A COR PÚRPURA.jpg">
                         <p>A COR PÚRPURA</p>
                     </div>
-
-
-
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/A GUERRA NÃO TEM ROSTO DE MULHER.jpg">
@@ -382,7 +398,7 @@
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/HOMENS PRETOS NÃO CHORAM.jpg">
-                        <p>HOMENS PRETOS NÃO CHORAM</p>
+                        <p>HOMENS PRETOS (NÃO) CHORAM</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -396,7 +412,7 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/OLHOS D'AGUA.jpg">
+                        <img id="livrocategoria" src="img livros/OLHOS DAGUA.jpg">
                         <p>OLHOS D'ÁGUA</p>
                     </div>
 
@@ -420,7 +436,9 @@
             </div>
 
 
-            <div class="passo" id="passo-2"><!--BIOGRAFIAS-->
+            <!----------------BIOGRAFIAS---------------->
+
+            <div class="passo" id="passo-2">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -436,8 +454,18 @@
                 <div class="livrosaqui">
 
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/ANGELA DAVIS.jpg">
+                        <p>ANGELA DAVIS</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/ELVIS E EU.jpg">
                         <p>ELVIS E EU</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/ESTOU FELIZ QUE MINHA MAE MORREU.jpg">
+                        <p>ESTOU FELIZ QUE MINHA MÃE MORREU</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -460,16 +488,6 @@
                         <p>VIOLA DAVIS</p>
                     </div>
 
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/ANGELA DAVIS.jpg">
-                        <p>ANGELA DAVIS</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/ESTOU FELIZ QUE MINHA MAE MORREU.jpg">
-                        <p>ESTOU FELIZ QUE MINHA MÃE MORREU</p>
-                    </div>
-
 
                 </div>
 
@@ -478,13 +496,9 @@
 
 
 
+            <!---------------- CONTOS E POESIA---------------->
 
-
-
-
-
-
-            <div class="passo" id="passo-3"><!--CONTOS E POESIA-->
+            <div class="passo" id="passo-3">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -499,6 +513,11 @@
 
                 <div class="livrosaqui">
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/A BRUXA NÃO VAI.jpg">
+                        <p>A BRUXA NÃO VAI PARA A FOGUEIRA NESTE LIVRO</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/A GENTE MIRA NO AMOR E ACERTA NA SOLIDÃo.jpg">
                         <p>A GENTE MIRA NO AMOR E ACERTA NA SOLIDÃO</p>
                     </div>
@@ -507,11 +526,6 @@
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/A PRINCESA SALVA A SI MESMA NESTE LIVRO.jpg">
                         <p>A PRINCESA SALVA A SI MESMA NESTE LIVRO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/A BRUXA NÃO VAI.jpg">
-                        <p>A BRUXA NÃO VAI PARA A FOGUEIRA NESTE LIVRO</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -555,9 +569,10 @@
 
 
 
+            <!---------------- CRIMES REAIS ---------------->
 
 
-            <div class="passo" id="passo-4"><!--CRIMES REAIS-->
+            <div class="passo" id="passo-4">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -577,28 +592,8 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/ELIZE.jpg">
-                        <p>MULHERES ASSASSINAS: ELIZE MATSUNAGA</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SUZANE.jpg">
-                        <p>MULHERES ASSASSINAS: SUZANE VON RICHTHOFEN</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/FLORDELIS.jpg">
-                        <p>MULHERES ASSASSINAS: FLORDELIS</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/BTK PROFILE.png">
-                        <p>BTK PROFILE</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/DIÁRIO DE JACK O ESTRIPADOR.png">
-                        <p>O DIÁRIO DE JACK, O ESTRIPADOR</p>
+                        <p>BTK PROFILE: MÁSCARA DA MALDADE</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -607,8 +602,33 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/LADY KILLERS.png">
+                        <p>LADY KILLERS: ASSASSINAS EM SÉRIE</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/MODUS OPERANDI.jpg">
-                        <p>MODUS OPERANDI</p>
+                        <p>MODUS OPERANDI: GUIA DE TRUE CRIME</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/ELIZE.jpg">
+                        <p>MULHERES ASSASSINAS: ELIZE MATSUNAGA</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/FLORDELIS.jpg">
+                        <p>MULHERES ASSASSINAS: FLORDELIS</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/SUZANE.jpg">
+                        <p>MULHERES ASSASSINAS: SUZANE VON RICHTHOFEN</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/DIÁRIO DE JACK O ESTRIPADOR.png">
+                        <p>O DIÁRIO DE JACK, O ESTRIPADOR</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -617,20 +637,18 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/TED BUNDY.jpg">
-                        <p>TED BUNDY</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/LADY KILLERS.png">
-                        <p>LADY KILLERS</p>
+                        <img id="livrocategoria" src="img livros/TED BUNDY.png">
+                        <p>TED BUNDY: UM ESTRANHO AO MEU LADO</p>
                     </div>
 
                 </div>
             </div>
 
 
-            <div class="passo" id="passo-5"><!--FANTASIA-->
+            <!---------------- FANTASIA ---------------->
+
+
+            <div class="passo" id="passo-5">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -656,6 +674,26 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/O HOBBIT.jpg">
+                        <p>O HOBBIT</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/O NOME DO VENTO.jpg">
+                        <p>O NOME DO VENTO I</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/SAGA 7 REINOS.jpg">
+                        <p>SAGA OS 7 REINOS</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/SAGA ACOTAR.jpg">
+                        <p>SAGA ACOTAR</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/HARRY POTTER.jpg">
                         <p>SAGA HARRY POTTER</p>
                     </div>
@@ -666,43 +704,23 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/O NOME DO VENTO.jpg">
-                        <p>O NOME DO VENTO I</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/O HOBBIT.jpg">
-                        <p>O HOBBIT</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/PERCY JACKSON.jpg">
                         <p>SAGA PERCY JACKSON</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SAGA ACOTAR.jpg">
-                        <p>SAGA ACOTAR</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/SAGA THORNS.jpg">
                         <p>SAGA THORNS</p>
                     </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SAGA 7 REINOS.jpg">
-                        <p>SAGA OS 7 REINOS</p>
-                    </div>
-
                 </div>
             </div>
 
 
 
 
+            <!---------------- FICÇÃO ---------------->
 
-            <div class="passo" id="passo-6"><!--FICÇÃO-->
+            <div class="passo" id="passo-6">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -745,7 +763,7 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/EU ROBÔ.jpg">
+                        <img id="livrocategoria" src="img livros/EU ROBÔ.png">
                         <p>EU ROBÔ</p>
                     </div>
 
@@ -776,8 +794,9 @@
 
 
 
+            <!---------------- LITERATURA LGBT ---------------->
 
-            <div class="passo" id="passo-7"><!--LITERATURA LGBT-->
+            <div class="passo" id="passo-7">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -788,13 +807,14 @@
                     </div>
                 </div>
 
+
+
                 <div class="livrosaqui">
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - A JOGADA DO AMOR.jpg">
                         <p>A JOGADA DO AMOR</p>
                     </div>
-
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - A TEMPERATURA ENTRE VOCÊ E EU.jpg">
@@ -804,11 +824,6 @@
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - CAFÉ COM LICHIA.jpg">
                         <p>CAFÉ COM LICHIA</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/LGBT - QUASE EXEMPLAR.jpg">
-                        <p>QUASE EXEMPLAR</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -832,6 +847,11 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/LGBT - GAROTAS IMPERFEITAS.jpg">
+                        <p>GAROTAS IMPERFEITAS</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - O MAR ME LEVOU A VOCÊ.jpg">
                         <p>O MAR ME LEVOU A VOCÊ</p>
                     </div>
@@ -839,6 +859,11 @@
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - PRINCESAS MORTAS NÃO SE APAIXONAM.jpg">
                         <p>PRINCESAS MORTAS NÃO SE APAIXONAM</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/LGBT - QUASE EXEMPLAR.jpg">
+                        <p>QUASE EXEMPLAR</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -852,6 +877,16 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/SAGA MORREM NO FINAL.jpg">
+                        <p>SAGA MORREM NO FINAL</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/LGBT - TODAS AS NOSSAS MEIAS-NOITES.jpg">
+                        <p>TODAS AS NOSSAS MEIAS NOITES</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/LGBT - ÚLTIMA PARADA.jpg">
                         <p>ÚLTIMA PARADA</p>
                     </div>
@@ -861,27 +896,13 @@
                         <p>UM NAMORADO PRA VIAGEM</p>
                     </div>
 
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/LGBT - GAROTAS IMPERFEITAS.jpg">
-                        <p>GAROTAS IMPERFEITAS</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/LGBT - TODAS AS NOSSAS MEIAS-NOITES.jpg">
-                        <p>TODAS AS NOSSAS MEIAS NOITES</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SAGA MORREM NO FINAL.jpg">
-                        <p>SAGA MORREM NO FINAL</p>
-                    </div>
                 </div>
-
             </div>
 
 
+            <!---------------- MISTÉRIO ---------------->
 
-            <div class="passo" id="passo-8"><!--MISTÉRIO-->
+            <div class="passo" id="passo-8">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -911,8 +932,8 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/UM DE NOS ESTA MENTINDO.jpg">
-                        <p>SAGA UM DE NÓS ESTÁ MENTINDO</p>
+                        <img id="livrocategoria" src="img livros/MEU ASSASSINATO.jpg">
+                        <p>MEU ASSASSINATO</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -921,18 +942,8 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/MEU ASSASSINATO.jpg">
-                        <p>MEU ASSASSINATO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/QUANDO NINGUEM ESTA OLHANDO.jpg">
                         <p>QUANDO NINGUÉM ESTÁ OLHANDO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/UMA MULHER NO ESCURO.jpg">
-                        <p>UMA MULHER NO ESCURO</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -950,6 +961,15 @@
                         <p>SAGA SHERLOCK HOLMES</p>
                     </div>
 
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/UM DE NOS ESTA MENTINDO.jpg">
+                        <p>SAGA UM DE NÓS ESTÁ MENTINDO</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/UMA MULHER NO ESCURO.jpg">
+                        <p>UMA MULHER NO ESCURO</p>
+                    </div>
 
                 </div>
             </div>
@@ -957,8 +977,9 @@
 
 
 
+            <!---------------- QUADRINHOS ---------------->
 
-            <div class="passo" id="passo-9"><!--QUADRINHOS-->
+            <div class="passo" id="passo-9">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -970,26 +991,42 @@
                     </div>
                 </div>
 
+
+
                 <div class="livrosaqui">
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/ARLINDO.jpg">
+                        <p>ARLINDO</p>
+                    </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/GAROTA RANHO.jpg">
-                        <p>GAROTA RANHO</p>
+                        <img id="livrocategoria" src="img livros/BEIJO NO ASFALTO.jpg">
+                        <p>BEIJO NO ASFALTO</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/BLOOM.jpg">
+                        <p>BLOOM</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/CONTOS ESMAGADORES JUNJI ITO.jpg">
+                        <p>CONTOS ESMAGADORES - JUNJI ITO</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/SAGA DIARIO DE UM BANANA.jpg">
+                        <p>DIÁRIO DE UM BANANA (1-5)</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/MAUS.jpg">
-                        <p>MAUS</p>
+                        <p>MAUS (I E II)</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/NOS OLHOS DE QUEM VE.jpg">
-                        <p>NOS OLHOS DE QUEM VÊ</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/Ô JOSUÉ.png">
-                        <p>Ô JOSUÉ</p>
+                        <img id="livrocategoria" src="img livros/ORGULHO E PRECONCEITO HQ.jpg">
+                        <p>ORGULHO E PRECONCEITO</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -1002,35 +1039,6 @@
                         <p>SAGA HEARTSTOPPER</p>
                     </div>
 
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/BEIJO NO ASFALTO.jpg">
-                        <p>BEIJO NO ASFALTO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/ORGULHO E PRECONCEITO HQ.jpg">
-                        <p>ORGULHO E PRECONCEITO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/CONTOS ESMAGADORES JUNJI ITO.jpg">
-                        <p>CONTOS ESMAGADORES - JUNJI ITO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/BLOOM.jpg">
-                        <p></p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/ARLINDO.jpg">
-                        <p>ARLINDO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SAGA DIARIO DE UM BANANA.jpg">
-                        <p>DIÁRIO DE UM BANANA (1-5)</p>
-                    </div>
                 </div>
             </div>
 
@@ -1039,8 +1047,9 @@
 
 
 
+            <!----------------ROMANCE ---------------->
 
-            <div class="passo" id="passo-10"><!--ROMANCE-->
+            <div class="passo" id="passo-10">
                 <div class="home-categoria">
                     <img src="lili searching.png">
                     <div class="texto">
@@ -1058,13 +1067,18 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/">
+                        <img id="livrocategoria" src="img livros/A RAZÃO DO AMOR.jpg">
                         <p>A RAZÃO DO AMOR</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/">
-                        <p>AMOR TEORICAMENTE</p>
+                        <img id="livrocategoria" src="img livros/AFTER.jpg">
+                        <p>AFTER</p>
+                    </div>
+
+                    <div onclick="openPopup('popup')" class="espacolivro">
+                        <img id="livrocategoria" src="img livros/AMOR, TEORICAMENTE.jpg">
+                        <p>AMOR, TEORICAMENTE</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -1073,7 +1087,7 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/">
+                        <img id="livrocategoria" src="img livros/É ASSIM QUE COMEÇA.jpg">
                         <p>É ASSIM QUE COMEÇA</p>
                     </div>
 
@@ -1103,11 +1117,6 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/O VERÃO QUE MUDOU MINHA VIDA">
-                        <p>O VERÃO QUE MUDOU MINHA VIDA</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
                         <img id="livrocategoria" src="img livros/ORGULHO E PRECONCEITO.jpg">
                         <p>ORGULHO E PRECONCEITO</p>
                     </div>
@@ -1128,13 +1137,8 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/UM AMOR SEM FREIO.jpg">
-                        <p>UM AMOR SEM FREIO</p>
-                    </div>
-
-                    <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/AFTER">
-                        <p>AFTER</p>
+                        <img id="livrocategoria" src="img livros/BRIDGERTON.jpg">
+                        <p>SAGA BRIDGERTON</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
@@ -1143,13 +1147,13 @@
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/BRIDGERTON.jpg">
-                        <p>SAGA BRIDGERTON</p>
+                        <img id="livrocategoria" src="img livros/SAGA VERÃO.jpg">
+                        <p>SAGA VERÃO</p>
                     </div>
 
                     <div onclick="openPopup('popup')" class="espacolivro">
-                        <img id="livrocategoria" src="img livros/SAGA VERÃO.jpg">
-                        <p>SAGA VERÃO</p>
+                        <img id="livrocategoria" src="img livros/UM AMOR SEM FREIO.jpg">
+                        <p>UM AMOR SEM FREIO</p>
                     </div>
 
                 </div>
@@ -1161,7 +1165,17 @@
 
 
 
-            <div class="passo" id="passo-14"><!--CARRINHO-->
+
+
+
+
+
+
+
+            <!---------------- CARRINHO ---------------->
+
+
+            <div class="passo" id="passo-14">
                 <div class="home-categoria">
                     <img src="lili buying.png">
                     <div class="texto">
@@ -1178,7 +1192,9 @@
                 </div>
             </div>
 
-            <div class="passo" id="passo-13"><!--FAVORITOS-->
+            <!---------------- FAVORITOS ---------------->
+
+            <div class="passo" id="passo-13">
                 <div class="home-categoria">
                     <img src="lili favorites.png">
                     <div class="texto">
@@ -1248,9 +1264,9 @@
 
 
 
+    <!----------------POPUP SEMANA SURPRESA---------------->
 
-
-    <div class="popup" id="popup1"> <!--POPUP SEMANA SURPRESA-->
+    <div class="popup" id="popup1">
         <div class="flex">
             <img id='livro' src="quando as estrelas caem.png">
             <span class="close" onclick="closePopup('popup1')"><img id="exit" src="img icones/exit.png"></span>
@@ -1281,10 +1297,11 @@
 
 
 
-    
 
 
-    <div class="popup" id="popup2"> <!--LOGIN-->
+    <!---------------- LOGIN ---------------->
+
+    <div class="popup" id="popup2">
         <div class="flex">
             <img id='livro' src="lili reading.png">
             <span class="close" onclick="closePopup('popup2')"><img id="exit" src="img icones/exit.png"></span>
@@ -1301,7 +1318,11 @@
 
 
 
-    <div class="popup" id="popup0"><!--  -->
+
+
+    <!---------------- ---------------->
+
+    <div class="popup" id="popup0">
         <div class="flex">
             <img id='livro' src="">
             <span class="close" onclick="closePopup('popup0')">
