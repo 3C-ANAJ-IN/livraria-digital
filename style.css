@@ -2654,10 +2654,13 @@
              h3 {
                  font-size: 20px;
                  margin: 15px 0 0 0;
+                 text-transform: uppercase;
              }
 
              h5 {
                  margin: 0 0 15px 0;
+                 text-transform: uppercase;
+
              }
 
              h6 {

@@ -1,0 +1,22 @@
+ <!---------------- ---------------->
+
+    <div class="popup" id="popup0">
+        <div class="flex">
+            <img id='livro' src="img livros/">
+            <span class="close" onclick="closePopup('popup0')">
+                <img src="img icones/exit.png" id="exit">
+            </span>
+
+            <div class="conteudo">
+                <h3>NOME</h3>
+                <h5>AUTOR</h5>
+                <p>SINOPSE</p><BR>
+                <H5>PÁGINAS</H5>
+
+                <a href=""><button id="b1" class="botaoabrir">ABRIR LIVRO</button></a>
+
+                <button id="b2" class="botaoicone"><img src="img icones/favoritosc.png" alt="seus favoritos"></button>
+                <button id="b3" class="botaoicone"><img src="img icones/carrinho.png" alt="carrinho"></button>
+            </div>
+        </div>
+    </div>

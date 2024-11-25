@@ -81,3 +81,29 @@ function closePopup(popupId) {
     popup.style.display = 'none';
     pageContent.classList.remove('blur');  // Remove o desfoque do conteúdo
 }
+
+
+
+
+
+
+
+
+const faqItems = document.querySelectorAll('.faq-item');
+
+faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+
+    question.addEventListener('click', () => {
+        // Fecha todos os outros itens
+        faqItems.forEach(otherItem => {
+            if (item !== otherItem) {
+                otherItem.querySelector('.faq-answer').style.display = 'none';
+            }
+        });
+
+        // Abre ou fecha o item clicado
+        answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+    });
+});
