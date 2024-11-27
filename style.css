@@ -34,8 +34,14 @@
      font-size: 50px;
  }
 
- .subtitulo {
+ .subtitulo,
+ .subtitulohidden {
      font-size: 30px;
+ }
+
+
+ .subtitulohidden {
+     display: none;
  }
 
  html {
@@ -256,13 +262,13 @@
          position: absolute;
          bottom: 20px;
          right: 200px;
-     }
+         box-shadow: 0px 0px 20px 10px var(--cor-principal);}
 
      #b2 {
          position: absolute;
          bottom: 20px;
          right: 70px;
-     }
+     }     
 
      #b3 {
          position: absolute;
@@ -1193,7 +1199,13 @@
 
  @media (max-width: 450px) {
 
+    .subtitulohidden {
+        display:block;
+    }
 
+    .subtitulo {
+        display: none;
+    }
      .menu .titulo {
          display: none;
      }
@@ -1870,9 +1882,17 @@
 
  @media (max-width: 400px) {
 
+    .subtitulohidden {
+        display:block;
+    }
+
+    .subtitulo {
+        display: none;
+    }
+
      .popup {
          position: fixed;
-         top: 10%;
+         top: 5%;
          left: 5%;
          width: 75%;
          height: 80%;
@@ -1920,18 +1940,21 @@
              position: absolute;
              bottom: 20px;
              right: 55px;
+             background-color: var(--cor-principal);
          }
 
          #b3 {
              position: absolute;
              bottom: 20px;
              right: 15px;
+             background-color: var(--cor-principal);
          }
 
          #b4 {
              position: absolute;
              bottom: 20px;
              right: 95px;
+             background-color: var(--cor-principal);
          }
 
          #livro {
@@ -1977,6 +2000,8 @@
  /* ------------------- TABLET ------------------- */
 
  @media (width: 1024px) {
+
+    
      .menu {
          display: flex;
          margin: 0 100px 200px 100px;
@@ -2883,7 +2908,7 @@
 
      .container {
          position: relative;
-         width: 100%;
+         width: 300px;
          height: 500px;
      }
 
