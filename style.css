@@ -98,7 +98,7 @@
      text-decoration: none;
  }
 
- 
+
  .infomensagem {
      color: var(--cinza-claro);
      padding: 100px 20px;
@@ -269,9 +269,9 @@
      }
 
      #b4 {
-        position: absolute;
-        bottom: 20px;
-        right: 110px;
+         position: absolute;
+         bottom: 20px;
+         right: 110px;
      }
 
      #livro {
@@ -682,7 +682,8 @@
      position: relative;
      width: 300px;
      height: 500px;
- aspect-ratio: 4/3;}
+     aspect-ratio: 4/3;
+ }
 
 
  .container:hover .flip {
@@ -1820,9 +1821,9 @@
          }
 
          #b4 {
-            position: absolute;
-            bottom: 20px;
-            right: 95px;
+             position: absolute;
+             bottom: 20px;
+             right: 95px;
          }
 
          #livro {
@@ -1861,6 +1862,105 @@
 
 
 
+ @media (max-width: 400px) {
+
+     .popup {
+         position: fixed;
+         top: 10%;
+         left: 5%;
+         width: 75%;
+         height: 80%;
+         padding: 30px;
+
+
+         .conteudo {
+             display: block;
+             margin: 0;
+             width: 100%;
+             height: 300px;
+             overflow-y: auto;
+             scrollbar-width: none;
+
+             h3 {
+                 font-size: 20px;
+                 margin: 15px 0 0 0;
+             }
+
+             h5 {
+                 margin: 0 0 15px 0;
+             }
+
+             h6 {
+                 margin: 0 0 30px 0;
+             }
+         }
+
+         p {
+             font-size: 12px;
+             font-weight: 500;
+         }
+
+         button {
+             margin-top: 20px;
+         }
+
+         #b1 {
+             position: absolute;
+             bottom: 20px;
+             left: 5%;
+         }
+
+         #b2 {
+             position: absolute;
+             bottom: 20px;
+             right: 55px;
+         }
+
+         #b3 {
+             position: absolute;
+             bottom: 20px;
+             right: 15px;
+         }
+
+         #b4 {
+             position: absolute;
+             bottom: 20px;
+             right: 95px;
+         }
+
+         #livro {
+             height: 225px;
+             margin: 0;
+             border-radius: 20px;
+             position: relative;
+             top: 5%;
+             left: 25%;
+
+         }
+
+         #exit {
+             height: 30px;
+             padding: 10px;
+             z-index: 888;
+         }
+
+         #exit:hover {
+             filter: invert(60%) sepia(91%) saturate(1026%) hue-rotate(360deg) brightness(102%) contrast(105%);
+
+         }
+     }
+
+     .flex {
+         display: block;
+     }
+
+     .botaoabrir {
+
+         width: 200px;
+         padding: 15px;
+         font-weight: bolder;
+     }
+ }
 
 
 
@@ -2230,7 +2330,7 @@
          position: relative;
          width: 500px;
          height: 700px;
-         aspect-ratio: 4 / 3; 
+         aspect-ratio: 4 / 3;
      }
 
 
