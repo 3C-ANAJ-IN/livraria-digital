@@ -222,6 +222,8 @@
 
      .conteudo {
          margin: 20px 0 0 0;
+         overflow-y: auto;
+         scrollbar-width: none;
 
          h3 {
              font-size: 18px;
@@ -1778,6 +1780,10 @@
          .conteudo {
              display: block;
              margin: 0;
+             width: 100%;
+             height: 400px;
+             overflow-y: auto;
+             scrollbar-width: none;
 
              h3 {
                  font-size: 20px;
@@ -1877,7 +1883,7 @@
              display: block;
              margin: 0;
              width: 100%;
-             height: 300px;
+             height: 350px;
              overflow-y: auto;
              scrollbar-width: none;
 
@@ -2213,6 +2219,10 @@
 
          .conteudo {
              margin: 20px 0 0 0;
+             width: 100%;
+             height: 974px;
+             overflow-y: auto;
+             scrollbar-width: none;
 
              h3 {
                  font-size: 20px;
@@ -2750,6 +2760,10 @@
 
          .conteudo {
              margin: 20px 0 0 0;
+             width: 100%;
+             height: 718px;
+             overflow-y: auto;
+             scrollbar-width: none;
 
              h3 {
                  font-size: 20px;
